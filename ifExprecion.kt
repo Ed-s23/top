@@ -1,0 +1,10 @@
+//En Kotlin existe la posibilidad de que la estructura condicional if retorne un valor, característica no común a otros lenguajes
+//de programación
+fun main(parametro: Array<String>) {
+ print("Ingrese primer valor:")
+ val valor1 = readln().toInt()
+ print("Ingrese segundo valor:")
+ val valor2 = readln().toInt()
+ val mayor = if (valor1 > valor2) valor1 else valor2
+ println("El mayor entre $valor1 y $valor2 es $mayor")
+}
